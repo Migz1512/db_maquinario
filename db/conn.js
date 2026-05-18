@@ -5,3 +5,5 @@ const db = new Sequelize('db_maquinario','root','senai',{
     dialect: 'mysql',
     port: 3306
 })
+
+module.exports = db

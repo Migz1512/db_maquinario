@@ -14,7 +14,7 @@ app.use(cors())
 
 // ----- Rotas -----------
 
-app.post('/maquinario', maquinarioController.cadastrar)
+app.post('/maquinario', maquinario.Controller.cadastrar)
 
 // ----- Configurando server --
 conn.sync()
